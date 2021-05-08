@@ -16,7 +16,6 @@ function MainMenu({showHideNav}) {
     .catch(error=> console.log(error))
   },[]);
 
-
   return (
     <div className="grid gap-2 md:flex font-thin text-sm">
     {

@@ -3,7 +3,6 @@ import {
   Switch,
   Route 
 } from 'react-router-dom';
-import MenuBar from './components/MainMenu/MenuBar';
 import Home from './pages/Home';
 import FoodMenu from './pages/FoodMenu';
 import About from './pages/About';
@@ -18,7 +17,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <MenuBar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/food-menu" component={FoodMenu} />

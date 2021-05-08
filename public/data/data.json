@@ -3,39 +3,47 @@
     {
       "id": "01",
       "name": "Home",
-      "link": "/"
+      "link": "/",
+      "front": false 
     },
     {
       "id": "02",
       "name": "Menu",
-      "link": "/food-menu"
+      "link": "/food-menu",
+      "front": true 
     },
     {
       "id": "03",
       "name": "Order",
-      "link": "/order"
+      "link": "/order",
+      "front": true 
     },
     {
       "id": "04",
-      "name": "Table Booking",
-      "link": "/table-booking"
+      "name": "Visit",
+      "link": "/",
+      "front": true 
     },
     {
       "id": "05",
       "name": "About",
-      "link": "/about"
+      "link": "/about",
+      "front": true 
     },
     {
       "id": "06",
       "name": "Gallery",
-      "link": "/gallery"
+      "link": "/gallery",
+      "front": false 
     },
     {
       "id": "07",
       "name": "Location",
-      "link": "/location"
+      "link": "/location",
+      "front": false 
     }
   ],
+  
   "foodMenu": [
     {
       "dishTitle": "Appetisers",
